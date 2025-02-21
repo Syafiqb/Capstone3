@@ -3,7 +3,7 @@
 `Created by : Syafiq Basmallah`
 
 ## **Overview**
-Proyek ini bertujuan untuk menganalisis kampanye pemasaran Bank Sigma yang berfokus pada promosi produk deposito berjangka. Dengan memanfaatkan data historis, kita akan mengidentifikasi karakteristik nasabah yang lebih mungkin untuk berpartisipasi dalam kampanye.
+This project aims to analyze Bank Sigma's marketing campaign focused on promoting term deposit products. By utilizing historical data, we will identify customer characteristics that are more likely to participate in the campaign.
 
 ## **Table of Contents**
 
@@ -16,59 +16,59 @@ Proyek ini bertujuan untuk menganalisis kampanye pemasaran Bank Sigma yang berfo
 ## **1. Business Problem Understanding**
 
 ### **Context**
-Bank Sigma secara berkala mengadakan kampanye pemasaran langsung kepada pelanggan potensial. Tujuan dari analisis ini adalah:
-- Meningkatkan efisiensi dalam menargetkan nasabah yang relevan
-- Mengoptimalkan efektivitas strategi kampanye
-- Meminimalkan pemborosan anggaran pemasaran
+Bank Sigma periodically conducts direct marketing campaigns targeting potential customers. The objectives of this analysis are:
+- Increasing efficiency in targeting relevant customers
+- Optimizing campaign strategy effectiveness
+- Minimizing marketing budget waste
 
 ### **Problem Statement**
-Dapatkah kita membangun model prediksi yang mampu mengidentifikasi pelanggan yang kemungkinan besar akan berlangganan produk deposito berjangka?
+Can we build a predictive model capable of identifying customers who are most likely to subscribe to the term deposit product?
 
 ### **Metrics**
-- **Accuracy** : Untuk menilai sejauh mana model dapat memprediksi dengan benar
-- **Precision & Recall** : Untuk memahami keseimbangan antara pelanggan yang benar-benar tertarik dengan yang tidak
-- **F1-score** : Menggabungkan precision dan recall untuk evaluasi menyeluruh
+- **Accuracy**: To assess how well the model can predict correctly
+- **Precision & Recall**: To understand the balance between truly interested customers and those who are not
+- **F1-score**: Combining precision and recall for a comprehensive evaluation
 
 ## **2. Data Understanding**
-Dataset yang digunakan berasal dari kampanye pemasaran sebelumnya yang berisi informasi demografi pelanggan, interaksi sebelumnya, serta hasil akhir kampanye.
+The dataset used comes from previous marketing campaigns containing customer demographic information, past interactions, and campaign outcomes.
 
-Fitur utama dalam dataset:
-- `age` : Usia pelanggan
-- `job` : Jenis pekerjaan pelanggan
-- `marital` : Status pernikahan
-- `education` : Tingkat pendidikan
-- `default` : Status gagal bayar
-- `balance` : Saldo rata-rata pelanggan
-- `contact` : Jenis kontak yang digunakan
-- `campaign` : Jumlah kontak yang dilakukan selama kampanye
-- `previous` : Jumlah kontak sebelumnya
-- `y` : Label target (apakah pelanggan berlangganan produk deposito berjangka atau tidak)
+Key features in the dataset:
+- `age`: Customer age
+- `job`: Customer's job type
+- `marital`: Marital status
+- `education`: Education level
+- `default`: Credit default status
+- `balance`: Average customer balance
+- `contact`: Type of contact used
+- `campaign`: Number of contacts made during the campaign
+- `previous`: Number of previous contacts
+- `y`: Target label (whether the customer subscribed to the term deposit or not)
 
 ## **3. Data Preparation**
-Langkah-langkah yang dilakukan:
-- Menghapus missing values
-- Melakukan encoding pada variabel kategori
-- Normalisasi fitur numerik
-- Pembagian dataset menjadi training dan testing set
+Steps taken:
+- Removing missing values
+- Encoding categorical variables
+- Normalizing numerical features
+- Splitting the dataset into training and testing sets
 
 ## **4. Modeling & Evaluation**
-Beberapa model machine learning yang diuji:
+Several machine learning models were tested:
 - **Logistic Regression**
 - **Random Forest Classifier**
 - **Gradient Boosting**
 
-Evaluasi dilakukan menggunakan:
+Evaluation was performed using:
 - Confusion Matrix
 - ROC Curve
 - Classification Report
 
 ## **5. Conclusion & Recommendation**
-- Model terbaik berdasarkan evaluasi adalah `XXXXX` (akan disesuaikan dari hasil model)
-- Bank Sigma dapat meningkatkan efektivitas kampanye dengan menargetkan pelanggan berdasarkan hasil analisis model
-- Rekomendasi selanjutnya mencakup pengujian dengan dataset yang lebih besar dan eksplorasi fitur tambahan
+- The best model based on evaluation is `Logistic Regression`
+- Bank Sigma can improve campaign effectiveness by targeting customers based on model analysis
+- Further recommendations include testing with a larger dataset and exploring additional features
 
 ## **How to Run**
-1. Clone repository ini
+1. Clone this repository
    ```bash
    git clone https://github.com/yourusername/yourrepository.git
    cd yourrepository
@@ -77,7 +77,7 @@ Evaluasi dilakukan menggunakan:
    ```bash
    pip install -r requirements.txt
    ```
-3. Jalankan notebook
+3. Run the notebook
    ```bash
    jupyter notebook
    ```
@@ -91,8 +91,5 @@ Evaluasi dilakukan menggunakan:
 - Jupyter Notebook
 
 ---
-
-README ini dapat disesuaikan dengan detail tambahan sesuai kebutuhan proyek!
-
 
 link streamlit: https://capstone3syafiq.streamlit.app/
